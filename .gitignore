@@ -1,0 +1,91 @@
+# Slidy History Files
+.slidy/
+
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# The .vscode folder contains launch configuration and tasks you configure in
+# VS Code which you may wish to be included in version control, so this line
+# is commented out by default.
+#.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+**/ios/Flutter/.last_build_id
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# app subscription
+android/key.properties
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Exceptions to above rules.
+!/packages/flutter_tools/test/data/dart_dependencies_test/**/.packages
+
+# Ignore build directories
+/dist/
+/build/
+/out/
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+
+# Ignore package manager files
+/node_modules/
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# Ignore environment variables and secrets
+.env
+*.env.*
+config/*.json
+secrets.json
+credentials.json
+*.key
+*.pem
+*.crt
+
+# Ignore IDE and editor specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Ignore OS files
+.DS_Store
+Thumbs.db
+
+# Ignore logs
+*.log
+*.log.*
+
