@@ -1,4 +1,4 @@
-# padaria
+# Bakery
 
 A new Flutter project.
 
